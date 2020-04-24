@@ -5,3 +5,7 @@ body {
 h1, p {
   display: none;
 }
+
+a {
+  padding-left: 1.25rem;
+}
