@@ -9,3 +9,7 @@ h1, p {
 a {
   padding-left: 1.25rem;
 }
+
+.card {
+  max-width: 800px;
+}
