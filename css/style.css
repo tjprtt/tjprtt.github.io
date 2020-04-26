@@ -1,5 +1,9 @@
+:root {
+  --main-font-family: 'IBM Plex Sans', sans-serif;
+}
+
 body {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: var(--main-font-family);
 }
 
 h1, p {
