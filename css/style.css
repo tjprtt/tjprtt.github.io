@@ -2,6 +2,10 @@
   --main-font-family: 'IBM Plex Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--main-font-family);
 }
