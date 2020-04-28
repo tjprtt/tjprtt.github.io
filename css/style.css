@@ -14,8 +14,14 @@ h1, p {
   display: none;
 }
 
-a {
+/* a {
   padding-left: 1.25rem;
+} */
+
+a:hover {
+  display: inline-block;
+  transform: translateY(-2px);
+  color: red;
 }
 
 .card {
@@ -32,4 +38,16 @@ nav ul {
 
 nav ul li {
   padding: 0px 10px;
+}
+
+main > section {
+  padding: 4rem 0;
+}
+
+main > #about {
+  height: calc(100vh - 56px); /* Viewport height - navbar height */
+}
+
+main > #projects {
+  background: #f3f3f3;
 }
