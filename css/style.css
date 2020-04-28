@@ -22,3 +22,14 @@ a {
   max-width: 800px;
   margin: auto;
 }
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+nav ul li {
+  padding: 0px 10px;
+}
