@@ -33,36 +33,17 @@ a:hover {
   max-width: 800px;
   margin: auto;
 }
-/* 
-nav > .container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-nav ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  padding: 0 0;
-}
-
-nav ul li {
-  padding: 0px 10px;
-} */
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  float: right;
+  display: block;
 }
 
-nav ul > li {
+nav ul li {
   float: left;
-}
-
-nav ul > li {
   display: block;
   text-align: center;
   padding: 16px;
