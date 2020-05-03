@@ -57,6 +57,11 @@ main > #about {
   height: calc(100vh - 56px); /* Viewport height - navbar height */
 }
 
+main > #about a {
+  display: block;
+  float: right;
+}
+
 main > #projects {
   background: #f3f3f3;
 }
