@@ -57,6 +57,16 @@ main > #about {
   height: calc(100vh - 56px); /* Viewport height - navbar height */
 }
 
+main > #about > .container {
+  display: flex;
+}
+
+main > #about > .container > div {
+  flex-basis: 0;
+  flex-grow: 1;
+  width: 0;
+}
+
 main > #about a {
   display: block;
   float: right;
