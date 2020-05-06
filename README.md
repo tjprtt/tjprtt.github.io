@@ -1,3 +1,8 @@
 # [tjprtt.github.io](https://tjprtt.github.io)
 
-A personal website hosted on GitHub pages.
+A static site hosted on [GitHub Pages](https://pages.github.com/) to be a personal website, portfolio and development sandbox.
+
+Technologies used:
+* HTML
+* CSS
+* JavaScript
