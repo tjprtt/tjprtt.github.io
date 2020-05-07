@@ -6,3 +6,8 @@ Technologies used:
 * HTML
 * CSS
 * JavaScript
+* Bootstrap
+
+To Implement:
+* Canvas element
+* Try WebGL, WASM(?)
