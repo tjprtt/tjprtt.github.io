@@ -9,12 +9,34 @@
   <title>My Personal Site</title>
 </head>
 <body>
-  <nav class="navbar navbar-light bg-light">
+  <!-- <nav class="navbar navbar-dark bg-dark">
     <div class="container">
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav> -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item "> <!-- Add "active" to active element-->
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light">Resumé</button>
+        </li>
       </ul>
     </div>
   </nav>
@@ -39,7 +61,21 @@
       <header>
         <div class="container">
           <h1>Projects</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum laboriosam laudantium placeat deleniti quo dicta cumque, ipsum dolorem cupiditate dolor!</p>
+          <br>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="..." class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </header>
     </section>
