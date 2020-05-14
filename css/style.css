@@ -74,6 +74,10 @@ small {
   letter-spacing: 0.06rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Card Component CSS */
 .card {
   display: flex;
