@@ -80,10 +80,6 @@ a {
   font-weight: 400;
 }
 
-a:hover {
-  font-weight: bold;
-}
-
 /* Card Component CSS */
 .card {
   display: flex;
