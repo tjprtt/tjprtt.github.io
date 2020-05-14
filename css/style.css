@@ -97,7 +97,6 @@ a {
 } */
 
 /* Layout */
-
 * {
   box-sizing: border-box;
 }
@@ -141,7 +140,33 @@ strong {
   font-weight: 500;
 }
 
+/* Button Component */
+a.btn {
+  padding: 0.3rem 0.75rem;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  letter-spacing: 0.06rem;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+a.btn-primary {
+  background: black;
+  color: white;
+  border-color: black;
+}
+
+a.btn-secondary {
+  background: white;
+  color: black;
+  border-color: rgb(61, 61, 61);
+}
+
+
 /* Card Component */
+
 
 /* Media Queries */
 @media screen and (max-width: 600px) { /* Phones and small tablets */
