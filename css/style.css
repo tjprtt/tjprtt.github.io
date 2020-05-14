@@ -69,9 +69,13 @@ h2 {
 
 small {
   line-height: 1;
-  color: grey;
+  color: #737373;
   font-weight: 400;
   letter-spacing: 0.06rem;
+}
+
+strong {
+  font-weight: 500;
 }
 
 a {
