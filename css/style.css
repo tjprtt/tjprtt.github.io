@@ -111,7 +111,8 @@ html, body {
 }
 
 header {
-  width: 22rem;
+  max-width: 22rem;
+  width: 40%;
   position: fixed;
   height: 100vh;
   padding: 3rem;
