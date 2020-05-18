@@ -5,8 +5,6 @@ A static site hosted on [GitHub Pages](https://pages.github.com/) to be a person
 Technologies used:
 * HTML
 * CSS
-* JavaScript
-* Bootstrap
 
 To Implement:
 * Canvas element
