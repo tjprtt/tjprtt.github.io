@@ -167,23 +167,26 @@ a.btn {
   transition: background-color 0.1s, color 0.1s, border-color 0.1s;
 }
 
-a.btn > span {
+/* a.btn > span {
   margin-right: 0.5rem;
-}
+} */
 
-
-a.btn:hover {
-  box-shadow: 0 0 0 1px black;
-  border-color: white;
-  background-color: white;
-  color: black;
-  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+a.btn > i {
+  margin-left: 0.5rem;
 }
 
 a.btn-primary {
   background: black;
   color: white;
   border-color: black;
+}
+
+a.btn-primary:hover {
+  box-shadow: 0 0 0 1px black;
+  border-color: white;
+  background-color: white;
+  color: black;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
 }
 
 a.btn-primary:active {
@@ -197,6 +200,13 @@ a.btn-secondary {
   border-color: rgb(61, 61, 61);
 }
 
+a.btn-secondary:hover {
+  box-shadow: 0 0 0 1px black;
+  border-color: black;
+  background-color: white;
+  color: black;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
 
 /* Card Component */
 .card {
